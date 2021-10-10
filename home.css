@@ -4,3 +4,23 @@ color: red;
 text-align: center;
 
 }
+
+
+#mainText{
+
+    font-family: 'Playfair Display', serif;
+    color: black;
+    float: center;
+    margin: 50px;
+    size: 20dp;
+    text-align: center;
+    margin-top: 50px;
+    white-space: pre-line;
+    text-align: left;
+    
+}
+
+#navbarSupportedContent{
+
+    float: right;
+}
