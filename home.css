@@ -20,7 +20,7 @@ text-align: center;
     
 }
 
-#navbarSupportedContent{
+.container-fluid{
 
-    float: right;
+    font-family: 'Poppins', sans-serif;
 }
