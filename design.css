@@ -1,0 +1,53 @@
+h1{
+
+    color: red;
+    text-align: center;
+    
+    }
+    
+    
+    #mainText{
+    
+        font-family: 'Playfair Display', serif;
+        color: black;
+        float: center;
+        margin: 50px;
+        size: 20dp;
+        text-align: center;
+        margin-top: 50px;
+        white-space: pre-line;
+        text-align: left;
+        
+    }
+    
+    .container-fluid{
+    
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .mainNavText:hover{
+    
+        color: green!important;
+    
+    }
+    
+    .mainNavText{
+    
+        font-family: 'Poppins', sans-serif;
+        margin-right: 40px;
+    
+    }
+    
+    .mainNavText:active{
+    
+        color: green!important;
+        
+    
+    }
+    
+    .navListText:active{
+    
+        color: green!important;
+        background-color: greenyellow;
+    
+    }
