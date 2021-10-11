@@ -19,6 +19,13 @@ text-align: center;
     
 }
 
+.card{
+
+    margin: 5%;
+}
+
+
+
 .container-fluid{
 
     font-family: 'Poppins', sans-serif;
@@ -50,3 +57,17 @@ text-align: center;
     background-color: greenyellow;
 
 }
+
+.mainButtons{
+
+    background-color: green;
+    border-color: none;
+
+}
+
+.mainButtons:hover{
+
+    background-color: darkgreen;
+
+}
+
