@@ -1,9 +1,11 @@
 h1{
 
 color: red;
-text-align: center;
+float: left;
 
 }
+
+
 
 
 #mainText{
@@ -11,12 +13,16 @@ text-align: center;
     font-family: 'Playfair Display', serif;
     color: black;
     margin: 50px;
-    size: 20dp;
-    margin-top: 50px;
+    font-size:3vw;
+    margin: 120px;
     white-space: pre-line;
     text-align: left;
     
+
 }
+
+
+
 
 .categories-text{
 
@@ -26,8 +32,7 @@ text-align: center;
     margin: 20px;
     font-size: 30px;
     text-align: center;
-    margin-top: 50px;
-    white-space: pre-line;
+    margin-top: 100px;
 }
 
 .row{
@@ -65,22 +70,57 @@ text-align: center;
 
 .navListText:active{
 
-    color: green!important;
+    color: rgb(43, 175, 112)!important;
     background-color: greenyellow;
 
 }
 
 .mainButtons{
 
-    background-color: green;
+    background-color: rgb(43, 175, 112);
     border-color: none;
 
 }
 
 .mainButtons:hover{
 
-    background-color: darkgreen;
+    background-color: rgb(43, 175, 112);
 
 }
+
+/* Footer */
+
+
+body {
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      overflow-x: hidden;
+      color: #949ca5;
+  }
+  
+  h5 {
+      font-size: 1rem;
+      line-height: 1.375;
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 500;
+      color: #030929;
+  }
+  
+  a {
+    color: #818494;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: rgb(43, 175, 112);
+    text-decoration: none;
+  }
+  
+  footer {
+    background: #f2fdf8;
+  }
 
 
