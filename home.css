@@ -12,9 +12,13 @@ float: left;
 
     font-family: 'Playfair Display', serif;
     color: black;
-    margin: 50px;
-    font-size:3vw;
-    margin: 120px;
+	font-size: 5vmin 6vmax;
+	position:static;
+	left: 20%;
+	top: 100%;
+	margin: 50px;
+	margin-top: 3.8em;
+	margin-left: 2em;
     white-space: pre-line;
     text-align: left;
     
@@ -129,6 +133,8 @@ body {
 /* Typewriter Effect Starts */
   @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+
+
 .animated_text{
   height: calc(45vh - 8em);
   padding: 2em;
@@ -137,12 +143,12 @@ body {
   background-color: rgb(43, 175, 112);  
 }
 .line-1{
-    position: relative;
+    position:relative;
     top: 8%;  
     width: 22em;
-    margin: 0 auto;
+    margin: auto auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 140%;
+    font-size: 3.5vmin;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -172,7 +178,7 @@ body {
 	height: 72px;
 	position:relative;
 	left: 50%;
-    margin-top: 30px;
+    margin-top: 25px;
 	margin-left: -20px;
 	bottom: 10px;
 }
