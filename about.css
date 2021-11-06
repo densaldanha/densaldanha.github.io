@@ -1,0 +1,211 @@
+h1{
+
+    color: red;
+    float: left;
+    
+    }
+    
+    
+    .mainText{
+        font-family: 'Playfair Display', serif;
+        color: black;
+        font-size: 4.9vh;
+        position:relative;
+        white-space: pre-line;
+        display: flex;
+        justify-content: center;
+        top: 50%;
+    
+    }
+    
+    
+    
+    .container-grid{
+    
+        background-color:rgb(43, 175, 112);
+    }
+
+    .headingText{
+
+        display: flex;
+        justify-items: center;
+    }
+    
+    
+    
+    
+    /* CV Button Start */
+    .btnCV {
+        box-sizing: border-box;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: transparent;
+        border: 2px solid #e74c3c;
+        border-radius: 0.6em;
+        color: #e74c3c;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        padding: 0.7em 1.9em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+      .btnCV:hover, .btnCV:focus {
+        color: #fff;
+        outline: 0;
+      }
+      
+      
+      
+      .second {
+        border-radius: 3em;
+        border-color: rgb(43, 175, 112);
+        color: #fff;
+        background-image: -webkit-linear-gradient(left, rgba, rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
+        background-image: linear-gradient(to right, rgba(43, 175, 112, 0.6), rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
+        background-position: 0 0;
+        background-size: 100%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+      }
+      .second:hover {
+        background-position: 100px;
+      }
+      
+    
+    /* Button End */
+    
+    
+    
+    .categories-text{
+    
+    
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+        padding-top: 2rem;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    
+    .row{
+        margin: 10px;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    
+    .container-fluid{
+    
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .mainNavText:hover{
+    
+        color: green!important;
+        
+    
+    }
+    
+    .mainNavText{
+    
+        font-family: 'Poppins', sans-serif;
+        margin-right: 40px;
+        white-space:nowrap;
+    
+    }
+    
+    .mainNavText:active{
+    
+        color: green!important;
+        
+    }
+    
+    .navListText:active {
+    
+        color: rgb(43, 175, 112)!important;
+        background-color:#B1FAD7;
+    
+    }
+    
+    .navListText:focus{
+    
+        background-color:#B1FAD7;
+    }
+    
+    .mainButtons{
+    
+        background-color: rgb(43, 175, 112);
+        border-color: none;
+    
+    }
+    
+    .mainButtons:hover{
+    
+        background-color: rgb(43, 175, 112);
+    
+    }
+     .card-text{
+         color: rgb(61, 61, 61);
+     }
+
+
+     .about-image{
+         display: flex;
+         align-content: center;
+        justify-content: right;
+     }
+
+
+    
+    /* Footer */
+    
+    
+    body {
+        font-family: 'Poppins',Arial,sans-serif;
+          font-weight: 400;
+          font-size: 1rem;
+          overflow-x: hidden;
+          color: #577aa1;
+      }
+      
+      h5 {
+          font-size: 1rem;
+          line-height: 1.375;
+        font-family: 'Poppins',Arial,sans-serif;
+          font-weight: 500;
+          color: #030929;
+      }
+      
+      a {
+        color: #444444;
+        font-weight: 500;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      
+      a:hover {
+        color: rgb(43, 175, 112);
+        text-decoration: none;
+      }
+      
+      footer {
+        background: #f2fdf8;
+      }
+    
+  
+    
+    
+    

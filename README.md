@@ -9,3 +9,7 @@ Typewriter effect: https://1stwebdesigner.com/20-amazing-pure-css-animated-butto
 Down arrow anchor effect: https://blog.stackfindover.com/html-css-scroll-down-arrow-examples/
 
 CV Button: https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/
+
+Category Cards: https://codepen.io/steveeeie/pen/NVWMEM
+
+Image Category: https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
