@@ -12,9 +12,9 @@ float: left;
 
     font-family: 'Playfair Display', serif;
     color: black;
-	font-size: 5vh;
+	font-size: 4.9vh;
 	position:relative;
-	margin: 50px;
+	margin: 20px;
 	margin-top: 12vmax;
     white-space: pre-line;
 	justify-content: center;
@@ -23,7 +23,7 @@ float: left;
 
 .container-fluid{
 
-	display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 
