@@ -14,10 +14,10 @@ float: left;
     color: black;
 	font-size: 4.9vh;
 	position:relative;
-	margin: 20px;
 	margin-top: 12vmax;
     white-space: pre-line;
 	justify-content: center;
+	align-items: center;
       
 }
 
