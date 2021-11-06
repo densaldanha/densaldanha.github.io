@@ -8,17 +8,15 @@ float: left;
 
 
 
-#mainText{
-
+.mainText{
     font-family: 'Playfair Display', serif;
     color: black;
 	font-size: 4.9vh;
 	position:relative;
-	margin-top: 12vmax;
     white-space: pre-line;
+	display: flex;
 	justify-content: center;
-	align-items: center;
-      
+	top: 50%;
 }
 
 .container-fluid{
@@ -26,8 +24,10 @@ float: left;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-content: center;
 
 }
+
 
 
 
