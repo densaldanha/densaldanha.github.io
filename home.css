@@ -32,6 +32,11 @@ float: left;
 	background-color:rgb(43, 175, 112);
 }
 
+.container2{
+
+	background-color:rgb(43, 175, 112);
+}
+
 
 
 
@@ -95,17 +100,14 @@ float: left;
 
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
+	background-color: rgb(43, 175, 112);
 	padding-top: 2rem;
     font-size: 30px;
     text-align: center;
 
 }
 
-.row{
-    margin: 10px;
-    justify-content: center;
-    padding: 10px;
-}
+
 
 
 .container-fluid{
@@ -320,6 +322,7 @@ body {
 	display: flex;
 	min-height: 100%;
 	justify-content: center;
+	margin-top: 0%;
 	padding: var(--spacing-xxl) var(--spacing-l);
   }
   
