@@ -102,7 +102,7 @@ float: left;
     color: rgb(255, 255, 255);
 	background-color: rgb(43, 175, 112);
 	padding-top: 2rem;
-    font-size: 30px;
+    font-size: 3.5vh;
     text-align: center;
 
 }
@@ -332,7 +332,7 @@ body {
 	grid-column-gap: var(--spacing-l);
 	grid-row-gap: var(--spacing-l);
 	max-width: var(--width-container);
-	width: 100%;
+	width: 70%;
   }
   
   @media(min-width: 540px){
