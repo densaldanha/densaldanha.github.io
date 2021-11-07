@@ -11,6 +11,7 @@ h1{
         color: black;
         font-size: 4.9vh;
         white-space: pre-line;
+        margin-top: 3vh;
         
     }
     
@@ -26,7 +27,6 @@ h1{
     .about{
 
         white-space: pre-line;
-        margin-top: 3vh;
        
 
     }

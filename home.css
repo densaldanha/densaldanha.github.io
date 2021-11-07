@@ -1,29 +1,11 @@
-h1{
-
-color: red;
-float: left;
-
-}
 
 
-.mainText{
-    font-family: 'Playfair Display', serif;
-    color: black;
-	font-size: 4.9vh;
-	position:relative;
-    white-space: pre-line;
-	display: flex;
-	justify-content: center;
-	top: 50%;
+.heading_text{
 
-}
-
-.container-fluid2{
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+white-space: pre-line;
+font-family: Playfair Display, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:rgb(32, 32, 32);
+font-size: 50px;
 
 }
 
