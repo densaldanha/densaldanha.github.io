@@ -30,6 +30,66 @@ h1{
         display: flex;
         justify-items: center;
     }
+
+/* ABOUT IMAGE EFFECTS STARTS*/
+
+main {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.6;
+  }
+  
+  .credit {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .credit p {
+    margin: 0;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  .img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    transition: 650ms ease;
+  }
+  .img-01 {
+    z-index: 2;
+  }
+  .img-02 {
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    filter: blur(100px);
+  }
+  
+  .img-01:hover {
+    opacity: 0;
+  }
+  
+  .img-01:hover ~ .img-02 {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+      /* About Image effects ends */
     
     
     
