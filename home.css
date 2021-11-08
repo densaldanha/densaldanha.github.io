@@ -5,8 +5,7 @@
 white-space: pre-line;
 font-family: Playfair Display, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color:rgb(32, 32, 32);
-font-size: 6vh;
-margin-left: 1vh;
+font-size: 5vh;
 
 }
 
@@ -190,7 +189,7 @@ body {
 
 .animated_text{
   height: calc(45vh - 8em);
-  padding: 2em;
+  padding: 1.4em;
   margin-bottom: 0%;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
@@ -198,7 +197,7 @@ body {
 }
 .line-1{
     position:relative;
-    top: 8%;  
+    top: 2%;  
     width: 22em;
     margin: auto auto;
     border-right: 2px solid rgba(255,255,255,.75);
