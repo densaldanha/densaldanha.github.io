@@ -184,7 +184,7 @@ h1 {
 
 .card .wrapper {
   background-color: #fff;
-  min-height: 300px;
+  min-height: 330px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -197,12 +197,12 @@ h1 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  transform: translateY(calc(32px + 1em));
+  transform: translateY(calc(37px + 1em));
   transition: transform 0.3s;
 
 }
 .card .data .content {
-  padding-top: 0.2em;
+  padding-top: 0.5em;
   padding-left: 0.6em;
   padding-bottom: 2em;
   position: relative;
@@ -227,7 +227,7 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background: url(/Images/thumbnail-test.png) 30% 2%/cover no-repeat;
+  background: url(/Images/test-thumbnail.png) 30% 2%/cover no-repeat;
 }
 .example-1 .date {
   position: absolute;
