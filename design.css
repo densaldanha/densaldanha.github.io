@@ -19,15 +19,7 @@ h1{
         top: 50%;
     
     }
-    
-    .container-fluid{
-    
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      align-content: center;
-    
-    }
+   
     
     
     /* CV Button Start */
@@ -169,16 +161,16 @@ h1 {
 }
 
 .row {
-  max-width: 900px;
-  margin: 50px auto 0;
+  max-width: 850px;
+  
 }
 
 .card {
-  float: left;
   padding: 0;
-  width: 45%;
+  width: 100%;
   height:5%;
   border-radius: 10px;
+  margin: 10px;
 
 }
 
@@ -188,7 +180,7 @@ h1 {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 19px 38px rgba(160, 160, 160, 0.3), 0 15px 12px rgba(160, 160, 160, 0.3);
+  
 }
 .card .wrapper:hover .data {
   transform: translateY(0);
@@ -204,7 +196,7 @@ h1 {
 .card .data .content {
   padding-top: 0.5em;
   padding-left: 0.6em;
-  padding-bottom: 2em;
+  padding-bottom: 2.7em;
   position: relative;
   z-index: 1;
 }
@@ -227,7 +219,7 @@ h1 {
 }
 
 .example-1 .wrapper {
-  background: url(/Images/test-thumbnail.png) 30% 2%/cover no-repeat;
+  background: url(/Images/test-thumbnail.png) 20% 5%/cover no-repeat;
 }
 .example-1 .date {
   position: absolute;
