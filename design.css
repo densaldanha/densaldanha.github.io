@@ -1,11 +1,15 @@
 
-    
-    
-.heading_text{
-    font-family: Playfair Display, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:rgb(32, 32, 32);
-    font-size: 5vh;
-    justify-items: center;
+.categories-text{
+
+
+    font-family: 'Poppins', sans-serif;
+    color:rgb(46, 46, 46);
+	padding-top: 2rem;
+    font-size: 3.5vh;
+    text-align: center;
+    margin-top: 10px;
+	
+
 }
    
     
@@ -144,11 +148,23 @@ h1 {
     border-color:rgb(42, 163, 104);
     background-color: rgb(241, 241, 241);
     box-shadow: 0 4px 8px 0 rgba(42, 163, 104, 0.2), 0 6px 20px 0 rgba(42, 163, 104, 0.19);
+    transition: transform .2s;
+    
+   
+    
       
+}
+
+.card:hover{
+    -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04); 
+
 }
 
 a:hover {
     text-decoration: none;
+   
 }
 
 .card-text{
@@ -175,6 +191,9 @@ a:hover {
 .row{
     margin-top: 20px;;
 }
+
+
+
 
 
 
