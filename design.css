@@ -1,24 +1,12 @@
-h1{
 
-    color: black;
-    float: left;
-    
-    }
     
     
-    
-    
-    .mainText{
-        font-family: 'Playfair Display', serif;
-        color: black;
-        font-size: 4.9vh;
-        position:relative;
-        white-space: pre-line;
-        display: flex;
-        justify-content: center;
-        top: 50%;
-    
-    }
+.heading_text{
+    font-family: Playfair Display, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(32, 32, 32);
+    font-size: 5vh;
+    justify-items: center;
+}
    
     
     
@@ -77,24 +65,8 @@ h1{
     
     
     
-    .categories-text{
-    
-    
-        font-family: 'Poppins', sans-serif;
-        color: black;
-        margin: 20px;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 100px;
-    }
-    
-    .row{
-        margin: 10px;
-        justify-content: center;
-        padding: 10px;
-    }
-    
-    
+
+
     
     .container-fluid{
     
@@ -160,97 +132,57 @@ h1 {
   color: black;
 }
 
-.row {
-  max-width: 850px;
-  
+.card-img-top{
+    border-radius: 10px;
+    
 }
 
-.card {
-  padding: 0;
-  width: 100%;
-  height:5%;
-  border-radius: 10px;
-  margin: 10px;
+.card{
 
-}
-
-.card .wrapper {
-  background-color: #fff;
-  min-height: 330px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  
-}
-.card .wrapper:hover .data {
-  transform: translateY(0);
-}
-.card .data {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  transform: translateY(calc(37px + 1em));
-  transition: transform 0.3s;
-
-}
-.card .data .content {
-  padding-top: 0.5em;
-  padding-left: 0.6em;
-  padding-bottom: 2.7em;
-  position: relative;
-  z-index: 1;
-}
-.card .author {
-  font-size: 12px;
-  color: #24C578;
-}
-.card .title {
-  margin-top: 6px;
-  
-  font-weight: bold;
-}
-.card .text {
-  height: 90px;
-  margin: 0;
-  font-size: 12px;
-}
-.card input[type=checkbox] {
-  display: none;
+    border-radius: 10px;
+    margin: 10px;
+    border-color:rgb(42, 163, 104);
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px 0 rgba(42, 163, 104, 0.2), 0 6px 20px 0 rgba(42, 163, 104, 0.19);
+      
 }
 
-.example-1 .wrapper {
-  background: url(/Images/test-thumbnail.png) 20% 5%/cover no-repeat;
+a:hover {
+    text-decoration: none;
 }
-.example-1 .date {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color:rgb(43, 175, 112);
-  color: #fff;
-  padding: 0.8em;
+
+.card-text{
+
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+    font-size: 18px;
 }
-.example-1 .date span {
-  display: block;
-  text-align: center;
+
+.card-author{
+    font-size: 12px;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    color: gray;
 }
-.example-1 .date .day {
-  font-weight: 700;
-  font-size: 18px;
+
+.card-date{
+    font-size: 10px;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: 0px;
 }
-.example-1 .date .month {
-  text-transform: uppercase;
+
+.row{
+    margin-top: 20px;;
 }
-.example-1 .date .month,
-.example-1 .date .year {
-  font-size: 12px;
-}
-.example-1 .content {
-  background-color: #fff;
-  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
-}
-.example-1 .title a {
-  color: gray;
-}
+
+
+
+
+
+
+
+
 
 
     
