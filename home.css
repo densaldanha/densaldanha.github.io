@@ -13,12 +13,12 @@ font-size: 5vh;
 
 .container-grid{
 
-	background-color:rgb(43, 175, 112);
+	background-color:rgb(65, 174, 73);
 }
 
 .container2{
 
-	background-color:rgb(43, 175, 112);
+	background-color:rgb(65, 174, 73);
 }
 
 
@@ -61,7 +61,7 @@ font-size: 5vh;
   
   .second {
 	border-radius: 3em;
-	border-color: rgb(43, 175, 112);
+	border-color: rgb(65, 174, 73);
 	color: #fff;
 	background-image: -webkit-linear-gradient(left, rgba, rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
 	background-image: linear-gradient(to right, rgba(43, 175, 112, 0.6), rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
@@ -84,7 +84,7 @@ font-size: 5vh;
 
     font-family: 'Poppins', sans-serif;
     color: rgb(255, 255, 255);
-	background-color: rgb(43, 175, 112);
+	background-color: rgb(65, 174, 73);
 	padding-top: 2rem;
     font-size: 3.5vh;
     text-align: center;
@@ -124,26 +124,33 @@ font-size: 5vh;
 
 .navListText:active {
 
-    color: rgb(43, 175, 112)!important;
+    color: rgb(65, 174, 73)!important;
     background-color:#B1FAD7;
 
 }
 
 .navListText:focus{
 
-	background-color:#B1FAD7;
+	background-color:#B1FAD7!important;
+
+}
+
+.active{
+
+	color: rgb(65, 174, 73)!important;
+
 }
 
 .mainButtons{
 
-    background-color: rgb(43, 175, 112);
+    background-color: rgb(65, 174, 73);
     border-color: none;
 
 }
 
 .mainButtons:hover{
 
-    background-color: rgb(43, 175, 112);
+    background-color: rgb(65, 174, 73);
 
 }
  .card-text{
@@ -177,7 +184,7 @@ body {
   }
   
   a:hover {
-    color: rgb(43, 175, 112);
+    color: rgb(65, 174, 73);
     text-decoration: none;
   }
   
@@ -196,7 +203,7 @@ body {
   margin-bottom: 0%;
   color: rgba(255,255,255,.75);
   font-family: 'Anonymous Pro', monospace;  
-  background-color: rgb(43, 175, 112);  
+  background-color: rgb(65, 174, 73);  
 }
 .line-1{
     position:relative;
@@ -304,7 +311,7 @@ body {
 
 .hero-section{
 	align-items: flex-start;
-	background-image: linear-gradient(15deg, rgb(43, 175, 112) 0%, rgb(43, 175, 112) 150%);
+	background-image: linear-gradient(15deg, rgb(65, 174, 73) 0%, rgb(65, 174, 73) 150%);
 	display: flex;
 	min-height: 100%;
 	justify-content: center;

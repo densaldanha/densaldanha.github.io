@@ -1,16 +1,15 @@
-
 .categories-text{
 
 
     font-family: 'Poppins', sans-serif;
     color:rgb(46, 46, 46);
-	padding-top: 2rem;
+  padding-top: 2rem;
     font-size: 27px;
     text-align: center;
     margin-top: 10px;
-	
-
-}
+  
+  
+  }
    
     
     
@@ -69,8 +68,8 @@
     
     
     
-
-
+  
+  
     
     .container-fluid{
     
@@ -109,6 +108,8 @@
     
         background-color:#B1FAD7;
     }
+
+    
     
     .mainButtons{
     
@@ -128,21 +129,21 @@
     
     
      /* BLOG CSS */
-
-
-h1 {
+  
+  
+  h1 {
   font-family: "Poppins", sans-serif;
   font-size: 22px;
   color: black;
-}
-
-.card-img-top{
+  }
+  
+  .card-img-top{
     border-radius: 10px;
     
-}
-
-.card{
-
+  }
+  
+  .card{
+  
     border-radius: 10px;
     margin: 10px;
     border-color:rgb(42, 163, 104);
@@ -153,57 +154,79 @@ h1 {
    
     
       
-}
-
-.card:hover{
+  }
+  
+  .card:hover{
     -ms-transform: scale(1.04); /* IE 9 */
   -webkit-transform: scale(1.04); /* Safari 3-8 */
   transform: scale(1.04); 
-
-}
-
-a:hover {
+  
+  }
+  
+  a:hover {
     text-decoration: none;
    
-}
-
-.card-text{
-
+  }
+  
+  .card-text{
+  
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(56, 56, 56);
     font-size: 18px;
-}
-
-.card-author{
+  }
+  
+  .card-author{
     font-size: 12px;
     font-family: Poppins,Arial, Helvetica, sans-serif;
     color: gray;
-}
-
-.card-date{
+  }
+  
+  .card-date{
     font-size: 10px;
     font-family: Poppins,Arial, Helvetica, sans-serif;
     color: gray;
     margin: 0px;
-}
-
-.row{
+  }
+  
+  .row{
     margin-top: 20px;;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
+  }
+  
+  
+  /* Footer */
+      
+      
+  body {
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      overflow-x: hidden;
+      color: #577aa1;
+  }
+  
+  h5 {
+      font-size: 1rem;
+      line-height: 1.375;
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 500;
+      color: #030929;
+  }
+  
+  a {
+    color: #444444;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: rgb(65, 174, 73);
+    text-decoration: none;
+  }
+  
+  footer {
+    background: #f2fdf8;
+  }
+  
+  /* Footer Ends */
