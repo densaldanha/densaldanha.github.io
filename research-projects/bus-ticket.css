@@ -157,7 +157,7 @@
   
   
   a:hover {
-    text-decoration: none;
+    
    
   }
   
@@ -189,7 +189,7 @@
   /* Sub-details panel */
   .sub-details{
 
-    text-align: left;
+    text-align: center;
     align-content: center;
     justify-content: center;
     
@@ -231,9 +231,9 @@
   }
   .date-bg{
       background-color:#d9f5e9;
-      margin-right:170px;
-      margin-left: 2px;
       border-radius: 30px;
+      margin-left: 45px;
+      margin-right: 45px;
       text-align: center;
   }
 
@@ -259,13 +259,11 @@
   a {
     color: #444444;
     font-weight: 500;
-    text-decoration: none;
     background-color: transparent;
   }
   
   a:hover {
     color: rgb(65, 174, 73);
-    text-decoration: none;
   }
   
   footer {
