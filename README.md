@@ -15,3 +15,12 @@ Category Cards: https://codepen.io/steveeeie/pen/NVWMEM
 Image Category: https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
 
 About Me Image Animation: https://codepen.io/NoahDelagardelle/pen/vYNgEVo
+
+Link to Category Illustrations:
+
+Research: <a href='https://www.freepik.com/vectors/technology'>Technology vector created by freepik - www.freepik.com</a>
+
+Design: <a href='https://www.freepik.com/vectors/cartoon'>Cartoon vector created by pikisuperstar - www.freepik.com</a>
+
+Photography: <a href='https://www.freepik.com/vectors/background'>Background vector created by ikatod - www.freepik.com</a>
+

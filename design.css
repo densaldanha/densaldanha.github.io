@@ -109,6 +109,12 @@
     
         background-color:#B1FAD7;
     }
+
+    .active{
+
+        color: rgb(65, 174, 73)!important;
+    
+    }
     
     .mainButtons{
     
