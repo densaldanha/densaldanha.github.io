@@ -24,3 +24,7 @@ Design: <a href='https://www.freepik.com/vectors/cartoon'>Cartoon vector created
 
 Photography: <a href='https://www.freepik.com/vectors/background'>Background vector created by ikatod - www.freepik.com</a>
 
+Videos: <a href='https://www.freepik.com/vectors/technology'>Technology vector created by stories - www.freepik.com</a>
+
+Others: <a href="https://www.vecteezy.com/free-vector/project">Project Vectors by Vecteezy</a>
+

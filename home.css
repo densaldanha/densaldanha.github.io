@@ -357,7 +357,7 @@ body {
 	background-position: center;
 	border-radius: var(--spacing-l);
 	bottom: 0;
-	filter: brightness(0.75) saturate(1.2) contrast(0.85);
+	filter: brightness(0.85) saturate(1.5) contrast(0.85);
 	left: 0;
 	position: absolute;
 	right: 0;
