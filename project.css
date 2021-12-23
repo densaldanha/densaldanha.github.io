@@ -308,8 +308,8 @@
   /* Container for image text */
   .caption-container {
     text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
+    background-color: rgb(65, 174, 73);
+    padding: 2px 10px;
     color: white;
   }
   
@@ -324,12 +324,13 @@
   /* Six columns side by side */
   .column-img {
     float: left;
-    width: 19.46%;
+    width: 19.99%;
   }
   
   /* Add a transparency effect for thumnbail images */
   .demo {
-    opacity: 0.6;
+    opacity: 0.5;
+    
   }
   
   .active,
