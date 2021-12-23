@@ -317,11 +317,13 @@
     display: table;
     clear: both;
   }
+
+  
   
   /* Six columns side by side */
   .column-img {
     float: left;
-    width: 16.66%;
+    width: 19.46%;
   }
   
   /* Add a transparency effect for thumnbail images */
