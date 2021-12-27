@@ -199,8 +199,8 @@ a:hover {
 
 
 /* Footer */
-    
-    
+
+
 body {
   font-family: 'Poppins',Arial,sans-serif;
     font-weight: 400;
@@ -231,6 +231,23 @@ a:hover {
 
 footer {
   background: #f2fdf8;
+padding-bottom: 50px;
+  margin-top: 80px;
 }
+
+.copyright-text{
+
+color: #444444;
+  font-weight: 200;
+  text-decoration: none;
+font-family: 'Poppins',Arial,sans-serif;
+  background-color: transparent;
+font-size: 12px;
+align-content: center;
+margin-top: 30px;
+
+}
+
+/* Footer Ends */
 
 /* Footer Ends */
