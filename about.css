@@ -232,6 +232,26 @@ h1{
       }
 
 
+      /* Form Starts */
+
+      #form_container
+{
+	background-image: url("images/paper-1914901_1280.jpg");
+	background-size:100% 100%;
+	padding:15px 15px;
+	margin-top:15px;
+}
+
+#form_container input[type='text'],
+#form_container input[type='email'],
+#form_container textarea
+{
+	background: rgba(255,255,255,0.2);	
+}
+
+      /* Form Ends */
+
+
 
 
     
