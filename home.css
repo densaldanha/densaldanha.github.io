@@ -190,6 +190,19 @@ body {
   
   footer {
     background: #f2fdf8;
+	padding-bottom: 60px;
+  }
+
+  .copyright-text{
+
+	color: #444444;
+    font-weight: 200;
+    text-decoration: none;
+	font-family: 'Poppins',Arial,sans-serif;
+    background-color: transparent;
+	font-size: 12px;
+	justify-self: center;
+
   }
 
 /* Typewriter Effect Starts */
