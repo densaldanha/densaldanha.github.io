@@ -67,6 +67,9 @@
     /* Button End */
     
     
+    .top-padding{
+      padding-top: 55px;
+    }
     
   
   
@@ -141,6 +144,21 @@
   font-size: 22px;
   color: black;
   }
+
+  h3{
+
+    font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: black;
+  }
+
+  .paragraph{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+    padding: 15px;
+    }
+
   
   
   
@@ -362,7 +380,7 @@
   }
   
   a {
-    color: #444444;
+    color: #666666;
     font-weight: 500;
     background-color: transparent;
   }
@@ -373,6 +391,7 @@
   
   footer {
     background: #f2fdf8;
+    
   }
   
   /* Footer Ends */
