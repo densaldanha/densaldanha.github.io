@@ -70,6 +70,24 @@
     .top-padding{
       padding-top: 55px;
     }
+
+    .number-text{
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 10vh;
+      padding-bottom: 10px;
+      color: rgb(42, 163, 104);
+      align-content: center;
+      text-align: center;
+    }
+    .sub-text-details{
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 3vh;
+      margin-bottom: 90px;
+      color:rgba(0, 0, 0, 0.8);
+      text-align: center;
+    }
     
   
   
