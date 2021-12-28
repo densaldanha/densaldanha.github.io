@@ -250,6 +250,11 @@
     border-radius: 20px;
     margin-bottom: 30px;
   }
+
+  .padding-bottom{
+    padding-bottom: 35px;
+  }
+
   .author-name{
 
     float: center right;
