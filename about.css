@@ -234,20 +234,732 @@ h1{
 
       /* Form Starts */
 
-      #form_container
-{
-	background-image: url("images/paper-1914901_1280.jpg");
-	background-size:100% 100%;
-	padding:15px 15px;
-	margin-top:15px;
-}
-
-#form_container input[type='text'],
-#form_container input[type='email'],
-#form_container textarea
-{
-	background: rgba(255,255,255,0.2);	
-}
+      .fcf-button, .fcf-file {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      .fcf-button, .fcf-input, .fcf-textarea, .fcf-select select, .fcf-file-cta, .fcf-file-name {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        align-items: center;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        box-shadow: none;
+        display: inline-flex;
+        font-size: 1rem;
+        height: 2.5em;
+        justify-content: flex-start;
+        line-height: 1.5;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: calc(0.75em - 1px);
+        padding-right: calc(0.75em - 1px);
+        padding-top: calc(0.5em - 1px);
+        position: relative;
+        vertical-align: top;
+      }
+      
+      .fcf-button:focus, .fcf-input:focus, .fcf-textarea:focus, .fcf-select select:focus, .fcf-file-cta:focus, .fcf-file-name:focus, .fcf-button:active, .fcf-input:active, .fcf-textarea:active, .fcf-select select:active, .fcf-file-cta:active, .fcf-file-name:active {
+        outline: none;
+      }
+      
+      .fcf-button[disabled], .fcf-input[disabled], .fcf-textarea[disabled], .fcf-select select[disabled], .fcf-file-cta[disabled], .fcf-file-name[disabled] {
+        cursor: not-allowed;
+      }
+      
+      .fcf-body, .fcf-button, .fcf-input, .fcf-select select, .fcf-textarea {
+        font-size: 16px;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        text-size-adjust: 100%;
+        font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      }
+      
+      .fcf-body {
+        color: #4a4a4a;
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+      
+      .fcf-input input[type="checkbox"], .fcf-input input[type="radio"] {
+        vertical-align: baseline;
+      }
+      
+      .fcf-strong {
+        color: #363636;
+        font-weight: 700;
+      }
+      
+      .fcf-legend legend, .fcf-textarea textarea {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .fcf-button, .fcf-input, .fcf-select select, .fcf-textarea {
+        margin: 0;
+      }
+      
+      .fcf-form-class * {
+        box-sizing: border-box;
+      }
+      
+      .fcf-button {
+        background-color: white;
+        border-color: #dbdbdb;
+        border-width: 1px;
+        color: #363636;
+        cursor: pointer;
+        justify-content: center;
+        padding-bottom: calc(0.5em - 1px);
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: calc(0.5em - 1px);
+        text-align: center;
+        white-space: nowrap;
+      }
+      
+      .fcf-button strong {
+        color: inherit;
+      }
+      
+      .fcf-button:hover {
+        border-color: #b5b5b5;
+        color: #363636;
+      }
+      
+      .fcf-button:focus {
+        border-color: #3273dc;
+        color: #363636;
+      }
+      
+      .fcf-button:focus:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+      }
+      
+      .fcf-button:active {
+        border-color: #4a4a4a;
+        color: #363636;
+      }
+      
+      .fcf-button.is-text {
+        background-color: transparent;
+        border-color: transparent;
+        color: #4a4a4a;
+        text-decoration: underline;
+      }
+      
+      .fcf-button.is-text:hover, .fcf-button.is-text:focus {
+        background-color: whitesmoke;
+        color: #363636;
+      }
+      
+      .fcf-button.is-text:active {
+        background-color: #e8e8e8;
+        color: #363636;
+      }
+      
+      .fcf-button.is-text[disabled] {
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: none;
+      }
+      
+      .fcf-button.is-link {
+        background-color: #3273dc;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-button.is-link:hover {
+        background-color: #276cda;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-button.is-link:focus {
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-button.is-link:focus:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+      }
+      
+      .fcf-button.is-link:active {
+        background-color: #2366d1;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-button.is-link[disabled] {
+        background-color: #3273dc;
+        border-color: transparent;
+        box-shadow: none;
+      }
+      
+      .fcf-button.is-normal {
+        font-size: 1rem;
+      }
+      
+      .fcf-button.is-medium {
+        font-size: 1.25rem;
+      }
+      
+      .fcf-button button[disabled] {
+        background-color: white;
+        border-color: #dbdbdb;
+        box-shadow: none;
+        opacity: 0.5;
+      }
+      
+      .fcf-button.is-fullwidth {
+        display: flex;
+        width: 100%;
+      }
+      
+      .fcf-buttons {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
+      
+      .fcf-buttons .fcf-button {
+        margin-bottom: 0.5rem;
+      }
+      
+      .fcf-buttons .fcf-button:not(:last-child):not(.is-fullwidth) {
+        margin-right: 0.5rem;
+      }
+      
+      .fcf-buttons .fcf-button:last-child {
+        margin-bottom: -0.5rem;
+      }
+      
+      .fcf-buttons .fcf-button:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      
+      .fcf-buttons.are-small .fcf-button:not(.is-normal):not(.is-medium):not(.is-large) {
+        border-radius: 2px;
+        font-size: 0.75rem;
+      }
+      
+      .fcf-buttons.are-medium .fcf-button:not(.is-small):not(.is-normal):not(.is-large) {
+        font-size: 1.25rem;
+      }
+      
+      .fcf-buttons.are-large .fcf-button:not(.is-small):not(.is-normal):not(.is-medium) {
+        font-size: 1.5rem;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:not(:first-child) {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:not(:last-child) {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        margin-right: -1px;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:last-child {
+        margin-right: 0;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:hover, .fcf-buttons.has-addons .fcf-button.is-hovered {
+        z-index: 2;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:focus, .fcf-buttons.has-addons .fcf-button.is-focused, .fcf-buttons.has-addons .fcf-button:active, .fcf-buttons.has-addons .fcf-button.is-active, .fcf-buttons.has-addons .fcf-button.is-selected {
+        z-index: 3;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button:focus:hover, .fcf-buttons.has-addons .fcf-button.is-focused:hover, .fcf-buttons.has-addons .fcf-button:active:hover, .fcf-buttons.has-addons .fcf-button.is-active:hover, .fcf-buttons.has-addons .fcf-button.is-selected:hover {
+        z-index: 4;
+      }
+      
+      .fcf-buttons.has-addons .fcf-button.is-expanded {
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+      
+      .fcf-buttons.is-centered {
+        justify-content: center;
+      }
+      
+      .fcf-buttons.is-centered:not(.has-addons) .fcf-button:not(.is-fullwidth) {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+      
+      .fcf-buttons.is-right {
+        justify-content: flex-end;
+      }
+      
+      .fcf-buttons.is-right:not(.has-addons) .fcf-button:not(.is-fullwidth) {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      }
+      
+      .fcf-input, .fcf-textarea, .fcf-select select {
+        background-color: white;
+        border-color: #dbdbdb;
+        border-radius: 4px;
+        color: #363636;
+      }
+      
+      .fcf-input::-moz-placeholder, .fcf-textarea::-moz-placeholder, .fcf-select select::-moz-placeholder {
+        color: rgba(54, 54, 54, 0.3);
+      }
+      
+      .fcf-input::-webkit-input-placeholder, .fcf-textarea::-webkit-input-placeholder, .fcf-select select::-webkit-input-placeholder {
+        color: rgba(54, 54, 54, 0.3);
+      }
+      
+      .fcf-input:-moz-placeholder, .fcf-textarea:-moz-placeholder, .fcf-select select:-moz-placeholder {
+        color: rgba(54, 54, 54, 0.3);
+      }
+      
+      .fcf-input:-ms-input-placeholder, .fcf-textarea:-ms-input-placeholder, .fcf-select select:-ms-input-placeholder {
+        color: rgba(54, 54, 54, 0.3);
+      }
+      
+      .fcf-input:hover, .fcf-textarea:hover, .fcf-select select:hover {
+        border-color: #b5b5b5;
+      }
+      
+      .fcf-input:focus, .fcf-textarea:focus, .fcf-select select:focus, .fcf-input:active, .fcf-textarea:active, .fcf-select select:active {
+        border-color: #3273dc;
+        box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+      }
+      
+      .fcf-input[disabled], .fcf-textarea[disabled], .fcf-select select[disabled] {
+        background-color: whitesmoke;
+        border-color: whitesmoke;
+        box-shadow: none;
+        color: #7a7a7a;
+      }
+      
+      .fcf-input[disabled]::-moz-placeholder, .fcf-textarea[disabled]::-moz-placeholder, .fcf-select select[disabled]::-moz-placeholder {
+        color: rgba(122, 122, 122, 0.3);
+      }
+      
+      .fcf-input[disabled]::-webkit-input-placeholder, .fcf-textarea[disabled]::-webkit-input-placeholder, .fcf-select select[disabled]::-webkit-input-placeholder {
+        color: rgba(122, 122, 122, 0.3);
+      }
+      
+      .fcf-input[disabled]:-moz-placeholder, .fcf-textarea[disabled]:-moz-placeholder, .fcf-select select[disabled]:-moz-placeholder {
+        color: rgba(122, 122, 122, 0.3);
+      }
+      
+      .fcf-input[disabled]:-ms-input-placeholder, .fcf-textarea[disabled]:-ms-input-placeholder, .fcf-select select[disabled]:-ms-input-placeholder {
+        color: rgba(122, 122, 122, 0.3);
+      }
+      
+      .fcf-input, .fcf-textarea {
+        box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
+        max-width: 100%;
+        width: 100%;
+      }
+      
+      .fcf-input[readonly], .fcf-textarea[readonly] {
+        box-shadow: none;
+      }
+      
+      .is-link.fcf-input, .is-link.fcf-textarea {
+        border-color: #3273dc;
+      }
+      
+      .is-link.fcf-input:focus, .is-link.fcf-textarea:focus, .is-link.fcf-input:active, .is-link.fcf-textarea:active {
+        box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+      }
+      
+      .is-medium.fcf-input, .is-medium.fcf-textarea {
+        font-size: 1.25rem;
+      }
+      
+      .is-fullwidth.fcf-input, .is-fullwidth.fcf-textarea {
+        display: block;
+        width: 100%;
+      }
+      
+      .fcf-textarea {
+        display: block;
+        max-width: 100%;
+        min-width: 100%;
+        padding: calc(0.75em - 1px);
+        resize: vertical;
+      }
+      
+      .fcf-textarea:not([rows]) {
+        max-height: 40em;
+        min-height: 8em;
+      }
+      
+      .fcf-textarea[rows] {
+        height: initial;
+      }
+      
+      .fcf-checkbox, .fcf-radio {
+        cursor: pointer;
+        display: inline-block;
+        line-height: 1.25;
+        position: relative;
+      }
+      
+      .fcf-checkbox input, .fcf-radio input {
+        cursor: pointer;
+        margin: 0;
+      }
+      
+      .fcf-checkbox[disabled], .fcf-radio[disabled] {
+        color: #7a7a7a;
+        cursor: not-allowed;
+      }
+      
+      .fcf-radio+.fcf-radio {
+        margin-left: 0.5em;
+      }
+      
+      .fcf-select {
+        display: inline-block;
+        max-width: 100%;
+        position: relative;
+        vertical-align: top;
+      }
+      
+      .fcf-select:not(.is-multiple) {
+        height: 2.5em;
+      }
+      
+      .fcf-select:not(.is-multiple):not(.is-loading)::after {
+        box-sizing: inherit;
+        border: 3px solid transparent;
+        border-radius: 2px;
+        border-right: 0;
+        border-top: 0;
+        content: " ";
+        display: block;
+        height: 0.625em;
+        margin-top: -0.4375em;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: rotate(-45deg);
+        transform-origin: center;
+        width: 0.625em;
+      }
+      
+      .fcf-select:not(.is-multiple):not(.is-loading)::after {
+        border-color: #3273dc;
+        right: 1.125em;
+        z-index: 4;
+      }
+      
+      .fcf-select select {
+        cursor: pointer;
+        display: block;
+        font-size: 1em;
+        max-width: 100%;
+        outline: none;
+      }
+      
+      .fcf-select select::-ms-expand {
+        display: none;
+      }
+      
+      .fcf-select select[disabled]:hover {
+        border-color: whitesmoke;
+      }
+      
+      .fcf-select select:not([multiple]) {
+        padding-right: 2.5em;
+      }
+      
+      .fcf-select select[multiple] {
+        height: auto;
+        padding: 0;
+      }
+      
+      .fcf-select select[multiple] option {
+        padding: 0.5em 1em;
+      }
+      
+      .fcf-select.is-link:not(:hover)::after {
+        border-color: #3273dc;
+      }
+      
+      .fcf-select.is-link select {
+        border-color: #3273dc;
+      }
+      
+      .fcf-select.is-link select:hover {
+        border-color: #2366d1;
+      }
+      
+      .fcf-select.is-link select:focus, .fcf-select.is-link select:active {
+        box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+      }
+      
+      .fcf-select.is-medium {
+        font-size: 1.25rem;
+      }
+      
+      .fcf-select.is-fullwidth {
+        width: 100%;
+      }
+      
+      .fcf-select.is-fullwidth select {
+        width: 100%;
+      }
+      
+      .fcf-file {
+        align-items: stretch;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+      }
+      
+      .fcf-file.is-link .fcf-file-cta {
+        background-color: #3273dc;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-file.is-link:hover .fcf-file-cta {
+        background-color: #276cda;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-file.is-link:focus .fcf-file-cta {
+        border-color: transparent;
+        box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
+        color: #fff;
+      }
+      
+      .fcf-file.is-link:active .fcf-file-cta {
+        background-color: #2366d1;
+        border-color: transparent;
+        color: #fff;
+      }
+      
+      .fcf-file.is-medium {
+        font-size: 1.25rem;
+      }
+      
+      .fcf-file.has-name .fcf-file-cta {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+      
+      .fcf-file.has-name .fcf-file-name {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+      
+      .fcf-file.is-fullwidth .fcf-file-label {
+        width: 100%;
+      }
+      
+      .fcf-file.is-fullwidth .fcf-file-name {
+        flex-grow: 1;
+        max-width: none;
+      }
+      
+      .fcf-file-label {
+        align-items: stretch;
+        display: flex;
+        cursor: pointer;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .fcf-file-label:hover .fcf-file-cta {
+        background-color: #eeeeee;
+        color: #363636;
+      }
+      
+      .fcf-file-label:hover .fcf-file-name {
+        border-color: #d5d5d5;
+      }
+      
+      .fcf-file-label:active .fcf-file-cta {
+        background-color: #e8e8e8;
+        color: #363636;
+      }
+      
+      .fcf-file-label:active .fcf-file-name {
+        border-color: #cfcfcf;
+      }
+      
+      .fcf-file-input {
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        outline: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      
+      .fcf-file-cta, .fcf-file-name {
+        border-color: #dbdbdb;
+        border-radius: 4px;
+        font-size: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        white-space: nowrap;
+      }
+      
+      .fcf-file-cta {
+        background-color: whitesmoke;
+        color: #4a4a4a;
+      }
+      
+      .fcf-file-name {
+        border-color: #dbdbdb;
+        border-style: solid;
+        border-width: 1px 1px 1px 0;
+        display: block;
+        max-width: 16em;
+        overflow: hidden;
+        text-align: inherit;
+        text-overflow: ellipsis;
+      }
+      
+      .fcf-label {
+        color: #363636;
+        display: block;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      
+      .fcf-label:not(:last-child) {
+        margin-bottom: 0.5em;
+      }
+      
+      .fcf-label.is-medium {
+        font-size: 1.25rem;
+      }
+      
+      .fcf-field:not(:last-child) {
+        margin-bottom: 0.75rem;
+      }
+      
+      .fcf-field-label .fcf-label {
+        font-size: inherit;
+      }
+      
+      .fcf-attribution {
+        color: #363636;
+        text-align: right;
+      }
+      
+      .fcf-attribution-link {
+        color: #363636;
+      }
+      
+      @media screen and (max-width: 768px) {
+        .fcf-field-label {
+            margin-bottom: 0.5rem;
+        }
+      }
+      
+      @media screen and (min-width: 769px), print {
+        .fcf-field-label {
+            flex-basis: 0;
+            flex-grow: 1;
+            flex-shrink: 0;
+            margin-right: 1.5rem;
+            text-align: right;
+        }
+        .fcf-field-label.is-normal {
+            padding-top: 0.375em;
+        }
+        .fcf-field-label.is-medium {
+            font-size: 1.25rem;
+            padding-top: 0.375em;
+        }
+      }
+      
+      .fcf-field-body .fcf-field .fcf-field {
+        margin-bottom: 0;
+      }
+      
+      @media screen and (min-width: 769px), print {
+        .fcf-field-body {
+            display: flex;
+            flex-basis: 0;
+            flex-grow: 5;
+            flex-shrink: 1;
+        }
+        .fcf-field-body .fcf-field {
+            margin-bottom: 0;
+        }
+        .fcf-field-body>.fcf-field {
+            flex-shrink: 1;
+        }
+        .fcf-field-body>.fcf-field:not(:last-child) {
+            margin-right: 0.75rem;
+        }
+      }
+      
+      .fcf-control {
+        box-sizing: border-box;
+        clear: both;
+        font-size: 1rem;
+        position: relative;
+        text-align: inherit;
+      }
+      
+      .has-text-link {
+        color: #3273dc !important;
+      }
+      
+      .has-text-weight-normal {
+        font-weight: 400 !important;
+      }
+      
+      .has-text-weight-medium {
+        font-weight: 500 !important;
+      }
+      
+      .is-hidden {
+        display: none !important;
+      }
+      
+      @media screen and (max-width: 1023px) {
+        .is-hidden-touch {
+            display: none !important;
+        }
+      }
+      
+      .fcf-status {
+        color: crimson;
+        font-size: 0.9em;
+      }
+      
+      .js-validate-error-label {
+        color: crimson;
+        font-size: 0.9em;
+      }
+      
+      .js-validate-error-field {
+        border: 1px solid #dc3545 !important;
+      }
+      
+      .js-validate-error-field:focus {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+      }
 
       /* Form Ends */
 
