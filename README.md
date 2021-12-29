@@ -1,8 +1,10 @@
 # densaldanha.github.io
-Denver's Portfolio Website
-Thank you for visiting my Portfolio Website.
-This Readme file contains the links to all the assets of HTML, CSS and content that I have used to create this website. This is a project under Mark Marshall.
+Denver's Portfolio Website  <a href='https://www.densaldanha.github.io'> Click here to access website</a>
 
+Thank you for visiting my Portfolio Website.
+This Readme file contains the links to all the assets of HTML, CSS, Javascript and content that I have used to create this website. This is a project under Mark Marshall.
+
+<h3>Sources of effects:</h3>
 
 Typewriter effect: https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/
 
@@ -16,7 +18,7 @@ Image Category: https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=
 
 About Me Image Animation: https://codepen.io/NoahDelagardelle/pen/vYNgEVo
 
-Link to Category Illustrations:
+Link to Category Illustrations (Freepik):
 
 Research: <a href='https://www.freepik.com/vectors/technology'>Technology vector created by freepik - www.freepik.com</a>
 
