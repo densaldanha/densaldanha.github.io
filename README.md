@@ -18,7 +18,7 @@ Image Category: https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=
 
 About Me Image Animation: https://codepen.io/NoahDelagardelle/pen/vYNgEVo
 
-Link to Category Illustrations (Freepik):
+<h3>Link to Category Illustrations (Freepik):</h3>
 
 Research: <a href='https://www.freepik.com/vectors/technology'>Technology vector created by freepik - www.freepik.com</a>
 
