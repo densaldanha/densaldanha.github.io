@@ -2,7 +2,7 @@
 Denver's Portfolio Website  <a href='https://www.densaldanha.github.io'> Click here to access website</a>
 
 Thank you for visiting my Portfolio Website.
-This Readme file contains the links to all the assets of HTML, CSS, Javascript and content that I have used to create this website. This is a project under Mark Marshall.
+This Readme file contains the links to all the assets of HTML, CSS, Javascript, Bootstrap and content that I have used to create this website. This is a project under Mark Marshall.
 
 <h3>Sources of effects:</h3>
 
@@ -14,11 +14,9 @@ CV Button: https://1stwebdesigner.com/20-amazing-pure-css-animated-buttons/
 
 Category Cards: https://codepen.io/steveeeie/pen/NVWMEM
 
-Image Category: https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
-
 About Me Image Animation: https://codepen.io/NoahDelagardelle/pen/vYNgEVo
 
-Link to Category Illustrations (Freepik):
+<h3>Link to Category Illustrations (Freepik):</h3>
 
 Research: <a href='https://www.freepik.com/vectors/technology'>Technology vector created by freepik - www.freepik.com</a>
 
