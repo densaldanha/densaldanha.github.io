@@ -416,3 +416,26 @@ body {
 
 /* MAIN CARDS ENDS */
 
+
+#slide {
+	position: inherit;
+    right: -120px;
+    width: 480px;
+    height: 480px;
+    background: blue;
+    -webkit-animation: slide 2s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 2s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+
+
