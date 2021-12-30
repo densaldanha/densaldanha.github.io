@@ -422,7 +422,6 @@ body {
     right: -120px;
     width: 480px;
     height: 480px;
-    background: blue;
     -webkit-animation: slide 2s forwards;
     -webkit-animation-delay: 1s;
     animation: slide 2s forwards;
