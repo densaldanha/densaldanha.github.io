@@ -234,7 +234,7 @@ body {
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 6s steps(36) 1s 1 normal both,
+  animation: typewriter 5s steps(36) 1s 1 normal both,
              blinkTextCursor 500ms steps(36) infinite normal;
 }
 @keyframes typewriter{
@@ -418,29 +418,6 @@ body {
 
 
 
-
-#text-animation{
-    -webkit-animation: 2s ease 0s normal forwards 1 fadein;
-    animation: 2s ease 0s normal forwards 1 fadein;
-}
-
-@keyframes fadein{
-	0% { opacity: 0; }
-  20% { opacity: 0; }
-  40% { opacity: 0.3; }
-  60% { opacity: 0.5; }
-  80% { opacity: 0.9; }
-  100% { opacity: 1; }
-}
-
-@-webkit-keyframes fadein{
-    0% { opacity: 0; }
-  20% { opacity: 0; }
-  40% { opacity: 0.3; }
-  60% { opacity: 0.5; }
-  80% { opacity: 0.9; }
-  100% { opacity: 1; }
-}
 
 
 
