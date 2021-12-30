@@ -1,5 +1,5 @@
 # densaldanha.github.io
-Denver's Portfolio Website  <a href='https://www.densaldanha.github.io'> Click here to access website</a>
+Denver's Portfolio Website  <a href='https://densaldanha.github.io/index.html'> Click here to access website</a>
 
 Thank you for visiting my Portfolio Website.
 This Readme file contains the links to all the assets of HTML, CSS, Javascript, Bootstrap and content that I have used to create this website. This is a project under Mark Marshall.
