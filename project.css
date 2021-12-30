@@ -172,7 +172,7 @@
 
   .paragraph{
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(105, 105, 105);
     padding: 15px;
     }
@@ -274,6 +274,13 @@
       margin-right: 45px;
       text-align: center;
   }
+  .intro-bg{
+    background-color:#d9f5e9;
+    border-radius: 30px;
+    margin-bottom: 35px;
+  
+  
+}
 
 
   /* Gallery CSS Starts */
@@ -434,3 +441,30 @@ margin-top: 30px;
 }
 
 /* Footer Ends */
+
+
+/* Table */
+
+table.customTable {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 3px;
+  border-color: #00A950;
+  border-style: solid;
+  color: #000000;
+  border-radius: 6px 6px 6px 6px;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 3px;
+  border-color: #00A950;
+  border-style: solid;
+  padding: 10px;
+}
+
+
+table.customTable thead {
+  background-color: #00A950;
+  border-radius: 6px 6px 6px 6px;
+}
