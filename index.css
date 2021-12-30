@@ -419,7 +419,7 @@ body {
 
 
 #slide {
-	position: inherit;
+	position: relative;
     right: -30px;
     width: 480px;
     height: 480px;
