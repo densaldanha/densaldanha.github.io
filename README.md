@@ -28,3 +28,10 @@ Videos: <a href='https://www.freepik.com/vectors/technology'>Technology vector c
 
 Others: <a href="https://www.vecteezy.com/free-vector/project">Project Vectors by Vecteezy</a>
 
+
+Blog Images Links
+
+1. http://wallpaperswide.com/atlantic_rocky_coastline_black_and_white-wallpapers.html
+
+2. http://wallpaperswide.com/penmon___trwyn_du___lighthouse_milky_way_galaxy_night_sky-wallpapers.html
+
