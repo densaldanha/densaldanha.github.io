@@ -30,8 +30,13 @@ Others: <a href="https://www.vecteezy.com/free-vector/project">Project Vectors b
 
 
 Blog Images Links
+<li>
+<ol>
+<b>1. Black and White Wallpaper:</b>http://wallpaperswide.com/atlantic_rocky_coastline_black_and_white-wallpapers.html
+</ol>
+</l1>
 
-1. http://wallpaperswide.com/atlantic_rocky_coastline_black_and_white-wallpapers.html
 
-2. http://wallpaperswide.com/penmon___trwyn_du___lighthouse_milky_way_galaxy_night_sky-wallpapers.html
+
+<b>Coming Soon Page Resources:</b> https://codepen.io/alvarotrigo/pen/ZEJqBdY
 
