@@ -1,0 +1,492 @@
+
+body{
+
+    background-color: #101010;
+   
+}  
+.heading-text{
+
+
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 255, 255);
+  padding-top: 2rem;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+   
+    
+    
+    /* CV Button Start */
+    .btnCV {
+        box-sizing: border-box;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: transparent;
+        border: 2px solid #e74c3c;
+        border-radius: 0.6em;
+        color: #e74c3c;
+        cursor: pointer;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        padding: 0.7em 1.9em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+      }
+      .btnCV:hover, .btnCV:focus {
+        color: #fff;
+        outline: 0;
+      }
+      
+      
+      
+      .second {
+        border-radius: 3em;
+        border-color: rgb(65, 174, 73);
+        color: #fff;
+        background-image: -webkit-linear-gradient(left, rgba, rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
+        background-image: linear-gradient(to right, rgba(43, 175, 112, 0.6), rgba(43, 175, 112, 0.6) 5%, #24C578 5%, #24C578 10%, rgba(43, 175, 112, 0.6) 10%, rgba(43, 175, 112, 0.6) 15%, #24C578 15%, #24C578 20%, rgba(43, 175, 112, 0.6) 20%, rgba(43, 175, 112, 0.6) 25%, #24C578 25%, #24C578 30%, rgba(43, 175, 112, 0.6) 30%, rgba(43, 175, 112, 0.6) 35%, #24C578 35%, #24C578 40%, rgba(43, 175, 112, 0.6) 40%, rgba(43, 175, 112, 0.6) 45%, #24C578 45%, #24C578 50%, rgba(43, 175, 112, 0.6) 50%, rgba(43, 175, 112, 0.6) 55%, #24C578 55%, #24C578 60%, rgba(43, 175, 112, 0.6) 60%, rgba(43, 175, 112, 0.6) 65%, #24C578 65%, #24C578 70%, rgba(43, 175, 112, 0.6) 70%, rgba(43, 175, 112, 0.6) 75%, #24C578 75%, #24C578 80%, rgba(43, 175, 112, 0.6) 80%, rgba(43, 175, 112, 0.6) 85%, #24C578 85%, #24C578 90%, rgba(43, 175, 112, 0.6) 90%, rgba(43, 175, 112, 0.6) 95%, #24C578 95%, #24C578 100%);
+        background-position: 0 0;
+        background-size: 100%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+      }
+      .second:hover {
+        background-position: 100px;
+      }
+      
+    
+    /* Button End */
+    
+    
+    .top-padding{
+      padding-top: 55px;
+    }
+
+    .number-text{
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 10vh;
+      padding-bottom: 10px;
+      color: rgb(42, 163, 104);
+      align-content: center;
+      text-align: center;
+    }
+    .sub-text-details{
+
+      font-family: 'Poppins', sans-serif;
+      font-size: 3vh;
+      margin-bottom: 90px;
+      color:rgba(0, 0, 0, 0.8);
+      text-align: center;
+    }
+    
+  
+  
+    
+    .container-fluid{
+    
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .mainNavText:hover{
+    
+        color: green!important;
+        
+    
+    }
+    
+    .mainNavText{
+    
+        font-family: 'Poppins', sans-serif;
+        margin-right: 40px;
+        white-space:nowrap;
+    
+    }
+    
+    .mainNavText:active{
+    
+        color: green!important;
+        
+    }
+    
+    .navListText:active {
+    
+        color: rgb(65, 174, 73)!important;
+        background-color:#B1FAD7;
+    
+    }
+    
+    .navListText:focus{
+    
+        background-color:#B1FAD7;
+    }
+
+    .active{
+
+        color: rgb(65, 174, 73)!important;
+    
+    }
+
+    
+    .mainButtons{
+    
+        background-color: rgb(65, 174, 73);
+        border-color: none;
+    
+    }
+    
+    .mainButtons:hover{
+    
+        background-color: rgb(42, 163, 104);
+    
+    }
+     .card-text{
+         color: rgb(61, 61, 61);
+     }
+    
+    
+     /* BLOG CSS */
+  
+  
+  h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: black;
+  }
+
+  h3{
+
+    font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: black;
+  }
+
+  .paragraph{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: rgb(190, 190, 190);
+    padding: 15px;
+    }
+
+  
+  
+  
+  .card{
+  
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #101010;
+    box-shadow: 0 4px 8px 0 rgba(211, 211, 211, 0.2), 0 6px 20px 0 rgba(211, 211, 211, 0.2);
+    
+  }
+  
+  
+
+  
+  .card-text{
+  
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+  }
+  
+  .card-author{
+    font-size: 12px;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  .card-date{
+    font-size: 10px;
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+  }
+  
+  .top-row{
+    margin-top: 15px;
+  }
+
+  /* Sub-details panel */
+  .sub-details{
+
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  .profile-picture{
+      width: 50px;
+      height: 50px;
+      float: center left;
+      margin-left: 5px;
+  }
+
+  .headline{
+
+    border-right: 1px solid#9b9b9b;
+    border-color: #9b9b9b;
+  }
+  
+  .sub-side{
+
+    background-color:rgb(65, 174, 73);
+  }
+
+  .main-section{
+
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+
+  .padding-bottom{
+    padding-bottom: 35px;
+  }
+
+  .author-name{
+
+    float: center right;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .date{
+      color: rgb(65, 174, 73);
+      font-size: 14px;
+      padding: 0.5em;
+  }
+  .date-bg{
+    background-color:#1a1a1a;
+      border-radius: 30px;
+      margin-left: 45px;
+      margin-right: 45px;
+      text-align: center;
+  }
+  .intro-bg{
+    background-color:#1a1a1a;
+    border-radius: 30px;
+    margin-bottom: 35px; 
+    margin-top: 20px; 
+  
+}
+
+
+  /* Gallery CSS Starts */
+  
+    
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: rgb(65, 174, 73);
+    padding: 2px 10px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  
+  /* Six columns side by side */
+  .column-img {
+    float: left;
+    width: 19.99%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.5;
+    
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+  /* Gallery CSS Ends */
+
+
+/* Footer */
+
+
+body {
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+      overflow-x: hidden;
+      color: #577aa1;
+  }
+  
+  h5 {
+      font-size: 1rem;
+      line-height: 1.375;
+    font-family: 'Poppins',Arial,sans-serif;
+      font-weight: 500;
+      color: rgb(65, 174, 73);
+  }
+  
+  a {
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 500;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: rgb(65, 174, 73);
+    text-decoration: none;
+  }
+  
+  footer {
+    background-image: linear-gradient(180deg, rgba(39, 199, 52, 0.144) 0%, rgba(0, 0, 0, 0.295) 150%);
+	padding-bottom: 50px;
+    margin-top: 80px;
+  }
+
+  .copyright-text{
+
+	color: #ffffff;
+    font-weight: 200;
+    text-decoration: none;
+	font-family: 'Poppins',Arial,sans-serif;
+    background-color: transparent;
+	font-size: 12px;
+	align-content: center;
+	margin-top: 30px;
+
+  }
+  
+  /* Footer Ends */
+
+
+/* Table */
+
+table.customTable {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 3px;
+  border-color: #00A950;
+  border-style: solid;
+  color: #000000;
+  border-radius: 6px 6px 6px 6px;
+}
+
+table.customTable td, table.customTable th {
+  border-width: 3px;
+  border-color: #00A950;
+  border-style: solid;
+  padding: 10px;
+}
+
+
+table.customTable thead {
+  background-color: #00A950;
+  border-radius: 6px 6px 6px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
