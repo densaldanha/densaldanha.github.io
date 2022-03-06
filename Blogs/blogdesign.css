@@ -8,7 +8,7 @@ body{
 
 
     font-family: 'Poppins', sans-serif;
-    color:rgb(255, 255, 255);
+    color:rgb(155, 155, 155);
   padding-top: 2rem;
     font-size: 42px;
     text-align: center;
@@ -227,7 +227,7 @@ body{
   .card-date{
     font-size: 10px;
     font-family: Poppins,Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(155, 155, 155);
     margin: 0px;
   }
   
@@ -274,7 +274,7 @@ body{
   .author-name{
 
     float: center right;
-    color: rgb(255, 255, 255);
+    color: rgb(155, 155, 155);
     font-size: 16px;
     margin-left: 5px;
   }
