@@ -16,6 +16,12 @@ body{
   
   }
 
+  .list-style{
+
+    color: rgb(65, 174, 73);
+    font: 100;
+  }
+
   h3 {
 
     font-family: "Poppins", sans-serif;
