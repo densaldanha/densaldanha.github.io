@@ -362,7 +362,7 @@ body {
   
   @media(min-width: 960px){
 	.card-grid{
-	  grid-template-columns: repeat(5, 1fr); 
+	  grid-template-columns: repeat(4, 1fr); 
 	}
   }
   
