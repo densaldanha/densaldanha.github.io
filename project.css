@@ -73,6 +73,10 @@
       padding-top: 55px;
     }
 
+    .bottom-padding{
+      padding-bottom: 25px;
+    }
+
     .number-text{
 
       font-family: 'Poppins', sans-serif;
