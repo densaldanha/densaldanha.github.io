@@ -1,103 +1,78 @@
-.h1{
-
-    font-family: 'Manrope', sans-serif;
-    
+.h1 {
+  font-family: "Manrope", sans-serif;
 }
 
 .profile-img {
-
-    max-height: 500px;
-    float: right;
+  max-height: 500px;
+  float: right;
 }
 
 .project-img {
-
-    max-height: 500px;
+  max-height: 500px;
 }
 
-.large-font{
-
-    font-size: 65px;
+.large-font {
+  font-size: 65px;
 }
 
-
-
-.medium-text{
-
-    font-size: 14pt;
-    
-    font-weight: 350;
-
+.medium-text {
+  font-size: 14pt;
+  font-family: "Manrope", sans-serif;
+  font-weight: 350;
 }
 
 .sub-text {
-
-    font-size: 14pt;
-    font-weight: 350;
+  font-size: 14pt;
+  font-family: "Manrope", sans-serif;
+  font-weight: 350;
 }
 
-.classic-button{
-
-    border-radius: 40px;
-    background-color: #F0D180;
-    font-family: 'Manrope', sans-serif;
-    color: #b07e00;
-    border: none;
-    font-weight: 700;
-    font-size: 15pt;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 35px;
-    padding-right: 35px;
-
+.classic-button {
+  border-radius: 40px;
+  background-color: #f0d180;
+  font-family: "Manrope", sans-serif;
+  color: #b07e00;
+  border: none;
+  font-weight: 700;
+  font-size: 15pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .classic-button:hover {
-    background-color: #e7b73e;
-    color: white;
-
+  background-color: #e7b73e;
+  color: white;
 }
 
 .classic-button:active {
-
   background-color: #b07e00;
   transform: translateY(4px);
-
 }
 
-
-.margin{
-
-    margin-top: 100px;
+.margin {
+  margin-top: 100px;
 }
 
 .container-marginab {
-
-    padding-left: 4%;
-    padding-right: 4%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
-.padding{
-
-    padding-top: 40px;
-    
+.padding {
+  padding-top: 40px;
 }
 
-.box{
-
-    margin-top: 50px;
-    margin-bottom: 70px;
-    
+.box {
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
-.email{
-
-    float: left;
-    
+.email {
+  float: left;
 }
 
-.cv-button{
-
-    float:auto;
-    
+.cv-button {
+  float: auto;
 }
