@@ -29,7 +29,6 @@
     font-size: 4vmin;
     font-weight: 400;
     font-weight: 350;
-    text-justify:distribute;
 
 }
 
@@ -101,6 +100,6 @@
 
 .cv-button{
 
-    float: right;
+    float:auto;
     
 }
