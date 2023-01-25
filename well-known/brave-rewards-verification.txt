@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: denversaldanha.com
+Token: 528d5b671f0a2c48073d295efaf61979ddd076e58bcee3f342e96de8755e199f
