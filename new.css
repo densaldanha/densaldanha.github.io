@@ -1,5 +1,14 @@
+/* Colours: 
+Blue-Accent: #e4f2ff (round-background-blue) */
+
+
 .h1 {
   font-family: "Manrope", sans-serif;
+}
+
+.h2{
+  font-family: "Manrope", sans-serif;
+  font-size: 500px;
 }
 
 .profile-img {
@@ -13,6 +22,14 @@
 
 .large-font {
   font-size: 3.50rem;
+}
+
+.medium-title {
+  font-size: 1.50rem;
+}
+
+.large-title {
+  font-size: 3rem;
 }
 
 .medium-text {
@@ -51,7 +68,7 @@
   transform: translateY(4px);
 }
 
-.margin {
+.margin-top {
   margin-top: 100px;
 }
 
@@ -75,4 +92,20 @@
 
 .cv-button {
   float: auto;
+}
+
+.margin{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Color Definitions */ 
+
+.round-background-blue{
+
+  background-color: #e4f2ff;
+  padding: 30px;
+  border-radius: 35px;
+  margin-bottom: 15px;
 }
