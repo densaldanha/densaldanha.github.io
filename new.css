@@ -1,4 +1,4 @@
-/* Colours: 
+/* Colors: 
 Blue-Accent: #e4f2ff (round-background-blue) */
 
 
@@ -67,7 +67,7 @@ Blue-Accent: #e4f2ff (round-background-blue) */
 }
 
 .cv-button {
-  float: auto;
+  float: left;
 }
 
 .margin{
@@ -76,6 +76,15 @@ Blue-Accent: #e4f2ff (round-background-blue) */
   margin-bottom: 50px;
 }
 
+
+.bottom-progress-bar{
+  
+  bottom: 0px;
+  justify-content: center;
+  position: fixed;
+  align-items: center;
+
+}
 /* Color Definitions */ 
 
 .round-background-blue{
@@ -134,3 +143,6 @@ Blue-Accent: #e4f2ff (round-background-blue) */
   background-color: #e4f2ff;
   transform: translateY(4px);
 }
+
+
+
