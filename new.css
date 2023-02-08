@@ -1,6 +1,10 @@
 /* Colors: 
 Blue-Accent: #e4f2ff (round-background-blue) */
 
+body{
+  padding-left: 4%;
+  padding-right: 4%;
+}
 
 .h1 {
   font-family: "Manrope", sans-serif;
@@ -48,10 +52,10 @@ Blue-Accent: #e4f2ff (round-background-blue) */
   margin-top: 100px;
 }
 
-.container-marginab {
+/* .container-marginab {
   padding-left: 4%;
   padding-right: 4%;
-}
+} */
 
 .padding {
   padding-top: 40px;
