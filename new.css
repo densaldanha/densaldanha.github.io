@@ -13,7 +13,7 @@ a, a:focus, a:active {
 
 a:hover {
   text-decoration: none;
-  color: #b07e00
+  color: #b07e00;
 }
 
 .h1 {
@@ -49,6 +49,10 @@ a:hover {
 
 .large-title {
   font-size: 3rem;
+}
+
+.xl-title {
+  font-size: 4em;
 }
 
 .medium-text {
