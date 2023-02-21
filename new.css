@@ -88,21 +88,25 @@ a:hover {
 .email {
   float: left;
   text-decoration: none!important;
+  color: #000000;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
   margin-bottom: 15px;
+}
+
+.email:hover{
+  color: #b07e00;
 }
 
 .cv-button {
   float: left;
 }
 
-
-
 .margin{
 
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 
 .bottom-progress-bar{
   
