@@ -36,11 +36,12 @@ a:hover {
 }
 
 .project-img {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .large-font {
   font-size: 3.50rem;
+  color: #000000;
 }
 
 .medium-title {
@@ -48,7 +49,10 @@ a:hover {
 }
 
 .large-title {
-  font-size: 3rem;
+  /* font-size: 3.2rem; */
+  font-size: 55px;
+  font-weight: bold;
+  color: #000000;
 }
 
 .xl-title {
@@ -56,19 +60,26 @@ a:hover {
 }
 
 .medium-text {
-  font-size: 14pt;
+  font-size: 16px;
+  line-height: 28px;
   font-family: "Manrope", sans-serif;
   font-weight: 350;
+  color: #000000;
 }
 
 .sub-text {
   font-size: 14pt;
+  line-height: 28px;
   font-family: "Manrope", sans-serif;
   font-weight: 350;
 }
 
 .margin-top {
   margin-top: 100px;
+}
+
+.margin-bottom {
+  margin-top: 15px;
 }
 
 /* .container-marginab {
@@ -86,16 +97,14 @@ a:hover {
 }
 
 .email {
-  float: left;
   text-decoration: none!important;
   color: #000000;
   font-family: "Manrope", sans-serif;
   font-weight: 600;
-  margin-bottom: 15px;
 }
 
 .email:hover{
-  color: #b07e00;
+  color: #39bc4b;
 }
 
 .cv-button {
@@ -143,10 +152,70 @@ a:hover {
   padding: 20px;
 }
 
+.btnicon {
+
+  background-image: url("/Icons/Social Media/home-after.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px, 40px;
+  fill: #0055a5;
+  padding: 20px;
+  margin-right: 8px;
+
+}
+
+
+.btn2{
+  background-color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: none;
+  border-radius: 35px;
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 35px;
+  padding-left: 20px;
+  border: none;
+}
+
+.btn2:hover{
+
+background-color: #39bc4b;
+  color: white;
+  border: none;
+}
+
+.btn2:active{
+  fill: #39bc4b;
+  transform: translateY(4px);
+  border: none;
+}
 
 
 
 
+/* Home button */
+
+.home_button{
+
+  width: 55px;
+  height: 55px;
+  text-decoration: none;
+  background-image: url("/Icons/Social Media/home.svg");
+  background-color: white;
+  border: none;
+}
+.home_button:hover {
+  
+  background-image: url("/Icons/Social Media/home-after.svg");
+  color: white;
+  border: none;
+}
+.home_button:active {
+  fill: #f0d180;
+  transform: translateY(4px);
+  border: none;
+}
 
 
 /* Social Media */
@@ -154,13 +223,13 @@ a:hover {
 
 .linkedin_button{
 
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/linkedin.svg");
   background-color: white;
   border: none;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .linkedin_button:hover {
   
@@ -174,13 +243,13 @@ a:hover {
 
 .behance_button{
 
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/behance.svg");
   background-color: white;
   border: none;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .behance_button:hover {
   
@@ -194,13 +263,13 @@ a:hover {
 
 .dribbble_button{
 
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/dribbble.svg");
   background-color: white;
   border: none;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .dribbble_button:hover {
   
@@ -218,34 +287,34 @@ a:hover {
 
 .classic-button {
   border-radius: 40px;
-  background-color: #f0d180;
+  background-color: #000000;
   font-family: "Manrope", sans-serif;
-  color: #b07e00;
+  color: #ffffff;
   border: none;
   font-weight: 700;
-  font-size: 15pt;
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 35px;
   padding-right: 35px;
 }
 .classic-button:hover {
-  background-color: #e7b73e;
+  background-color: #39bc4b;
   color: white;
 }
 .classic-button:active {
-  background-color: #b07e00;
+  background-color: #F0D180;
   transform: translateY(4px);
 }
 /* Blue button */
 .classic-button-blue {
   border-radius: 40px;
-  background-color: #e4f2ff;
+  background-color: #000000;
   font-family: "Manrope", sans-serif;
-  color: #000000;
+  color: #ffffff;
   border: none;
   font-weight: 700;
-  font-size: 15pt;
+  font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 35px;
