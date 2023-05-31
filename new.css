@@ -138,7 +138,7 @@ a:hover {
 .card{
 
   font-family: "Manrope", sans-serif;
-  border-color: #f0d180!important;
+  border-color: #39bc4b!important;
   border-radius: 15px!important;
   margin-bottom: 10px;
   padding: 20px!important;
@@ -147,7 +147,7 @@ a:hover {
 
 .card-body{
   font-family: "Manrope", sans-serif;
-  border-color: #f0d180;
+  border-color: #39bc4b;
   border-radius: 15px;
   padding: 20px;
 }
