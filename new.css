@@ -29,6 +29,35 @@ a:hover {
   font-family: "Manrope", sans-serif;
   text-decoration: none;
 }
+.b-light {
+  font-weight: 500;
+  color: #65b4ff;
+  background-color: #65b5ff1b;
+  padding: 2px 12px;
+  border-radius: 35px;
+}
+
+.o-light {
+  font-weight: 500;
+  color: #ea902a;
+  background-color: #ea902a1a;
+  padding: 2px 12px;
+  border-radius: 35px;
+}
+.r-light {
+  font-weight: 500;
+  color: #e63440;
+  background-color: #e6344016;
+  padding: 2px 12px;
+  border-radius: 35px;
+}
+.g-light {
+  font-weight: 500;
+  color: #39bc4b;
+  background-color: #39bc4a17;
+  padding: 2px 12px;
+  border-radius: 35px;
+}
 
 .profile-img {
   max-height: 500px;
@@ -42,6 +71,13 @@ a:hover {
 .large-font {
   font-size: 3.50rem;
   color: #000000;
+}
+
+.small-title {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.2rem;
 }
 
 .medium-title {
