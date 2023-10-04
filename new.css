@@ -75,9 +75,9 @@ a:hover {
 
 .small-title {
   color: #000000;
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  
 }
 
 .medium-title {
@@ -193,24 +193,24 @@ a:hover {
   background-image: url("/Icons/Social Media/home-after.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 40px, 40px;
+  background-size: 35px, 35px;
   fill: #0055a5;
   padding: 20px;
-  margin-right: 8px;
+  margin-right: 5px;
 
 }
 
 
 .btn2{
   background-color: #000000;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   outline: none;
   border-radius: 35px;
   color: #ffffff;
   font-size: 16px;
-  padding-right: 35px;
-  padding-left: 20px;
+  padding-left: 2px;
+  padding-right: 25px;
   border: none;
 }
 
@@ -230,6 +230,16 @@ background-color: #39bc4b;
 .background-bg{
 
   background-color: #f0d180;
+}
+
+.items_block_right{
+
+  float: right;
+  /* justify-content: right;
+  justify-self: end;
+  justify-self: right;
+  justify-items: end;
+  justify-items: right; */
 }
 
 
@@ -258,14 +268,23 @@ background-color: #39bc4b;
   border: none;
 }
 
+.glass{
+background: rgba(255, 255, 255, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(14.6px);
+-webkit-backdrop-filter: blur(14.6px);
+border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 
 /* Social Media */
 
 
 .linkedin_button{
 
-  width: 55px;
-  height: 55px;
+  width: 42px;
+  height: 42px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/linkedin.svg");
   background-color: white;
@@ -284,8 +303,8 @@ background-color: #39bc4b;
 
 .behance_button{
 
-  width: 55px;
-  height: 55px;
+  width: 42px;
+  height: 42px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/behance.svg");
   background-color: white;
@@ -304,8 +323,8 @@ background-color: #39bc4b;
 
 .dribbble_button{
 
-  width: 55px;
-  height: 55px;
+  width: 42px;
+  height: 42px;
   text-decoration: none;
   background-image: url("/Icons/Social Media/dribbble.svg");
   background-color: white;
@@ -334,10 +353,10 @@ background-color: #39bc4b;
   border: none;
   font-weight: 700;
   font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .classic-button:hover {
   background-color: #39bc4b;
@@ -356,10 +375,10 @@ background-color: #39bc4b;
   border: none;
   font-weight: 700;
   font-size: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .classic-button-blue:hover {
   background-color: #65b4ff;
@@ -368,6 +387,27 @@ background-color: #39bc4b;
 .classic-button-blue:active {
   background-color: #e4f2ff;
   transform: translateY(4px);
+}
+
+
+abbr {
+  font-style: italic;
+  position: relative;
+  text-decoration:double
+}
+
+abbr:hover::after {
+  background: #39bc4a17;
+  border-radius: 10px;
+  bottom: 10%;
+  content: attr(title);
+  display: block;
+  left: 10%;
+  padding: 1em;
+  position: relative;    
+  width: 220px;
+  text-decoration: none;
+  z-index: 1;
 }
 
 
